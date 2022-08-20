@@ -1,2 +1,7 @@
-# YandexLyceum-Projects
-Collected all the projects from 2017 to 2019 while studying at the Yandex Lyceum
+# Alice-Guide
+
+Защита проекта API. Работа с Алисой.
+
+Работа: Алексеева Данила.
+
+_Yandex.Lyceum_
