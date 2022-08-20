@@ -1,2 +1,7 @@
-# YandexLyceum-Projects
-Collected all the projects from 2017 to 2019 while studying at the Yandex Lyceum
+# MIDI-Keyboard
+
+Защита проекта QT. Простейший MIDI-инструмент. Клавиатура с возможностью по нажатию клавиши воспроизводить какой-либо звук с функционалом записи.
+
+Работа: Алексеева Данила.
+
+_Yandex.Lyceum_
