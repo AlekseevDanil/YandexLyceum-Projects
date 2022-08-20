@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	{{ post[1] }}
+{% endblock %}
+
+{% block content_title %}
+	{{ post[1] }}
+	<a href="{{ url_for('posts.delete_post', slug=post[0]) }}">
+		<button  type="sumbit" class="btn btn-default">
+			<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+		</button>
+	</a>
+{% endblock %}
+
+{% block content %}
+    <div class="col-md-offset-1 col-md-6">
+	<p>{{ post[2] }}</p>
+    </div>
+{% endblock %}

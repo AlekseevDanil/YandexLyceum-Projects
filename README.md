@@ -1,2 +1,6 @@
-# YandexLyceum-Projects
-Collected all the projects from 2017 to 2019 while studying at the Yandex Lyceum
+# Twutter-blog
+Защита проекта Twutter-blog. Личный блог, с возможностью создания и удаления постов на различные тем. А так же простейшая форма регистрации и админка с простмотром всех постов/пользователей.
+
+Работа: Алексеева Данила.
+
+_Yandex.Lyceum_

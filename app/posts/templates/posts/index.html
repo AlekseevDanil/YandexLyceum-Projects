@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	Posts
+{% endblock %}
+
+{% block content_title %}
+	<div class="col-md-2">
+		<h1>Posts</h1>
+	</div>
+{% endblock %}
+
+{% block content %}
+	<form action="" method="post" novalidate>
+    	{{ form.hidden_tag() }}
+	    <p>
+		    <button type="button" class="btn btn-inverse">
+		        {{ form.class_.label }}<br>
+		        {{ form.class_ }}<br>
+		        {% for error in form.class_.errors %}
+		            <div class="alert alert-danger" role="alert">
+		                {{ error }}
+		            </div>
+		        {% endfor %}
+		        {{ form.submit() }}
+		    </button>
+	    </p>
+    </form>
+	<div>
+		{% for post in posts %}
+			<p>
+				<h4><a href="{{ url_for('posts.post_detail', slug=post[0]) }}">{{ post[1] }}</a></h4>
+			</p>
+		{% endfor %}
+	</div>
+{% endblock %}

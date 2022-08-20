@@ -1,0 +1,28 @@
+{% extends 'confidentially/base_admin.html' %}
+
+{% block title %}
+    Posts
+{% endblock %}
+
+{% block content_title %}
+    All posts
+{% endblock %}
+
+{% block content %}
+    <ul class="list-group">
+	  <li class="list-group-item active">
+	    <span class="badge">Keeper of the post</span>
+		<h4>Post name</h4>
+	  </li>
+	</ul>
+	<div class=''>
+		<ul class="list-group">
+			{% for name in posts %}
+				<li class="list-group-item">
+				    <span class="badge">{{ users.get(name[3], None) }}</span>
+					<h4>{{ name[1] }}</h4>
+				 </li>
+			{% endfor %}
+		</ul>
+	</div>
+{% endblock %}

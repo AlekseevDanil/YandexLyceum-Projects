@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Success
+{% endblock %}
+
+{% block content_title %}
+	<div class="alert alert-danger" role="alert">
+	    You have entered incorrect data or there is no such user!
+	</div>
+{% endblock %}
+
+{% block content %}
+	<button type="button" class="btn-lg btn-default-lg col-md-offset-1">
+	    <a href="/login">Return</a>
+	</button>
+{% endblock %}
