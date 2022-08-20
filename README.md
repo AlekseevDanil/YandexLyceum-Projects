@@ -1,4 +1,4 @@
-# Bunny_Jumper
+# Bunny Jumper
 Защита проекта PyGame. Игра на основе Doodle Jump.
 
 Работа: Алексеева Данила.
