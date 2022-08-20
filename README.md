@@ -1,2 +1,6 @@
-# YandexLyceum-Projects
-Collected all the projects from 2017 to 2019 while studying at the Yandex Lyceum
+# Bunny_Jumper
+Защита проекта PyGame. Игра на основе Doodle Jump.
+
+Работа: Алексеева Данила.
+
+_Yandex.Lyceum_
